@@ -2,7 +2,7 @@ import { useState } from "react";
 import PasswordStrengthMeter from "./components/PasswordStrengthMeter";
 
 function App() {
-  const [password, setPassword] = useState();
+  const [password, setPassword] = useState('');
   return (
     <div className="container">
       <div className="col-md-6 mx-auto">
