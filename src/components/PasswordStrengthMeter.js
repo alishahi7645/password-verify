@@ -1,6 +1,6 @@
 import React from "react";
 
-function PasswordStrengthMeter() {
+function PasswordStrengthMeter({password}) {
   return (
     <div>
       <div className="progress mt-3">
